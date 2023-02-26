@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+  background-image: url(./images/img.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 100px;
+}
+
+
+.container h1, p{
+  text-align: center;
+  padding-top: 20px;
+  color: beige;
+  font-weight: bold;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 100px;
+
+}
+
+.btn, .space, .delete, .shift{
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: beige;
+  padding: 8px 32px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.space {
+  padding: 8px 110px;
+}
+
+.btn:hover {
+  background-color: limegreen;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.delete:hover {
+  background-color: tomato;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.space:hover {
+  background-color: orchid;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.active {
+  background-color: limegreen;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.active2 {
+  background-color: tomato;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+
+.active3 {
+  background-color: orchid;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
